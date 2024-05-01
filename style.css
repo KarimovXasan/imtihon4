@@ -48,6 +48,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 .cart {
@@ -163,11 +167,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 50px;
-    grid-row-gap: 3px;
+    grid-row-gap: 3px; */
 }
 
 /* card1 */
@@ -176,7 +180,7 @@ h2 {
     background-color: #FFC12C;
     border-radius: 10px;
     align-items: center;
-    grid-area: 1 / 1 / 2 / 2;
+    /* grid-area: 1 / 1 / 2 / 2; */
 }
 
 .paragrof-main {
@@ -252,7 +256,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 120px;
+    /* margin-top: 120px; */
 }
 
 /* cardlar */
